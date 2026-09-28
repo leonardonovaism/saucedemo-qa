@@ -1,7 +1,10 @@
 # Casos de Teste - Login
 
-## Dados de teste:
-Username: standard_user
+## Informações:
+
+| Campo | Valor |
+|---|---|
+|Username|standard_user|
 password: secret_sauce
 
 ## CT001 - Login com credenciais válidas

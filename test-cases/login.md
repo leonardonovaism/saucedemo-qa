@@ -10,6 +10,8 @@
 |Tipo de teste|Funcional|
 
 
+----------------------------------------------------------
+
 ### CT001 - Login com credenciais válidas
 
 #### Objetivo: 

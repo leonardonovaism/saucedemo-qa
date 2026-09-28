@@ -4,8 +4,11 @@
 
 | Campo | Valor |
 |---|---|
-|Username|standard_user|
-password: secret_sauce
+|Sistema|SauceDemo|
+|URL|https://www.saucedemo.com/|
+|Tester|Leonardo Novais|
+|Tipo de teste|Funcional|
+
 
 ## CT001 - Login com credenciais válidas
 

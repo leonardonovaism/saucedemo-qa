@@ -1,6 +1,6 @@
 # Casos de Teste - Carrinho de compra
 
-### CT006 - Adicionar produto ao carrinho
+### CT-CART-001 - Adicionar produto ao carrinho
 
 #### Objetivo:
 - Validar se sistema adiciona produto ao carrinho 
@@ -23,7 +23,7 @@
 - Aprovado
  
 ---------------------------------------------------------------------
-### CT007 - Remover produto do carrinho
+### CT-CART-002 - Remover produto do carrinho
 
 #### Objetivo:
 - Validar se o sistema remove o produto do carrinho
@@ -46,7 +46,7 @@
 - Aprovado
 
 ---------------------------------------------------------------------
-### CT008 - Validar atualização do contador do carrinho ao adicionar produto
+### CT-CART-003 - Validar atualização do contador do carrinho ao adicionar produto
 
 #### Objetivo:
 - Validar que o contador do carrinho e atualizado ao adicionar um produto
@@ -70,7 +70,7 @@
 - Aprovado
 
 ---------------------------------------------------------------------
-### CT009 - Validar atualização do contador do carrinho ao remover produto
+### CT-CART-004 - Validar atualização do contador do carrinho ao remover produto
 
 #### Objetivo:
 - Validar que o contador do carrinho e atualizado ao remover um produto
@@ -94,7 +94,7 @@
 - Aprovado
 
 ---------------------------------------------------------------------
-### CT010 - Validar a funcionalidade "continuar comprando"
+### CT-CART-005 - Validar a funcionalidade "continuar comprando"
 
 #### Objetivo:
 - Validar a funcionalidade do botão "continuar comprando" ao adicionar um produto no carrinho
@@ -113,5 +113,5 @@
 #### Resultado obtido:
 - O sistema redirecionou o usuário para a pagina de produtos para continuar comprando
 
-Status:
+### Status:
 - Aprovado

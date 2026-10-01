@@ -12,7 +12,7 @@
 
 ----------------------------------------------------------
 
-### CT001 - Login com credenciais válidas
+### CT-LOGIN-001 - Login com credenciais válidas
 
 #### Objetivo: 
 - Validar login com credenciais validas
@@ -41,7 +41,7 @@
 - Aprovado
 
 -------------------------------------------------
-### CT002 - Login com usuário invalido
+### CT-LOGIN-002 - Login com usuário invalido
 
 #### Objetivo:
 - Validar se o sistema impede o acesso ao inserir usuário invalido
@@ -73,7 +73,7 @@
 
 ----------------------------------------------------------
 
-### CT003 - Login com senha invalida
+### CT-LOGIN-003 - Login com senha invalida
 
 #### Objetivo:
 - Validar se o sistema impede o acesso ao inserir senha invalida
@@ -106,7 +106,7 @@
 
 ----------------------------------------------------------
 
-### CT004 - Login com usuário bloqueado
+### CT-LOGIN-004 - Login com usuário bloqueado
 
 #### Objetivo:
 - Validar se o sistema impede o acesso de um usuário bloqueado
@@ -139,7 +139,7 @@
 -----------------------------------------------------------------
 
 
-### CT005 - Login com os campos vazio
+### CT-LOGIN-005 - Login com os campos vazio
 
 #### Objetivo: 
 - Validar se o sistema impede o acesso com campos vazios

@@ -76,7 +76,7 @@
 ### CT003 - Login com senha invalida
 
 #### Objetivo:
-- Validar se o sistema impede o acesso ao inserir usuário invalido
+- Validar se o sistema impede o acesso ao inserir senha invalida
 
 #### Dados de teste:
 |Campo|Valor|

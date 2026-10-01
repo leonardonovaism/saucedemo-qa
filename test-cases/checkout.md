@@ -1,6 +1,6 @@
 # Casos de Teste - Checkout
 
-### CT011 - Validar acesso ao checkout da compra
+### CT-CHECKOUT-001 - Validar acesso ao checkout da compra
 
 #### Objetivo:
 - Validar que o usuário consegue prosseguir para a tela de checkout da sua compra
@@ -25,7 +25,7 @@
 
 
 ---------------------------------------------------------------------
-### CT012 - Validar acesso ao checkout da compra
+### CT-CHECKOUT-002 - Validar acesso ao checkout da compra
 
 #### Objetivo:
 - Validar que o usuário consegue prosseguir para a tela de checkout da sua compra
@@ -49,7 +49,7 @@
 - Aprovado
 
 ---------------------------------------------------------------------
-### CT013 - Validar os campos vazios do checkout
+### CT-CHECKOUT-003 - Validar os campos vazios do checkout
 
 #### Objetivo:
 - Validar a obrigatoriedade de preenchimento nos campos da pagina de checkout
@@ -79,7 +79,7 @@
 
 
 ---------------------------------------------------------------------
-### CT014 - Validar prosseguimento preenchendo somente o campo first name
+### CT-CHECKOUT-004 - Validar prosseguimento preenchendo somente o campo first name
 
 #### Objetivo:
 - Validar a obrigatoriedade do preenchimento de todos os campos da pagina de checkout
@@ -109,7 +109,7 @@
 
 
 ---------------------------------------------------------------------
-### CT015 - Validar prosseguimento preenchendo somente o campo first name e Last name sem o CEP
+### CT-CHECKOUT-005 - Validar prosseguimento preenchendo somente o campo first name e Last name sem o CEP
 
 #### Objetivo:
 - Validar a obrigatoriedade de preenchimento do campo CEP
@@ -140,7 +140,7 @@
 - Aprovado
 
 ---------------------------------------------------------------------
-### CT016 - Validar prosseguimento para a pagina "Checkout: Overview"
+### CT-CHECKOUT-006 - Validar prosseguimento para a pagina "Checkout: Overview"
 
 #### Objetivo:
 - Validar o prosseguimento para a tela de "Checkout: Overview" ao preencher dados validos 
@@ -170,7 +170,7 @@
 
 
 ---------------------------------------------------------------------
-### CT017 - Validar finalização da compra
+### CT-CHECKOUT-007 - Validar finalização da compra
 
 #### Objetivo:
 - Validar a finalização da compra do usuário  

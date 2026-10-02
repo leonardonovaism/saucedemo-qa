@@ -35,7 +35,7 @@
 
 ### Login:
 
-| Campo | Valor |
+|  |  |
 |---|---|
 |Casos Executados| 5|
 |Aprovados| 5|
@@ -43,7 +43,7 @@
 
 ### Carrinho:
 
-| Campo | Valor |
+|  |  |
 |---|---|
 |Casos Executados| 5|
 |Aprovados| 5|
@@ -51,7 +51,7 @@
 
 ### Checkout:
 
-| Campo | Valor |
+|  |  |
 |---|---|
 |Casos Executados| 7 |
 |Aprovados| 7 |

@@ -12,6 +12,24 @@
 |Navegador|Google chrome e Edge|
 |Data|25/08/2026|
 
+## Plano de Teste
+
+### Login:
+- Login com credenciais validas
+- Login com credenciais invalidas
+- Usuário bloqueado
+- campos vazios
+
+### Carrinho:
+- Adicionar produto
+- Remover produto
+- Quantidade
+- Continuar comprando
+
+### Checkout
+- Preenchimento dos dados
+- Validação dos campos
+- Finalização de compra
 
 ## Relatorio:
 

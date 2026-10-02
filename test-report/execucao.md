@@ -35,11 +35,13 @@
 
 ### Login:
 
-|  |  |
-|---|---|
-|Casos Executados| 5|
-|Aprovados| 5|
-|Reprovados| 0| 
+| ID     | Cenário                       | Resultado esperado                               | Resultado obtido           | Status |
+| ------ | ----------------------------- | ------------------------------------------------ | -------------------------- | ------ |
+| CT-001 | Login com credenciais válidas | Usuário acessa a página de produtos              | Página de produtos exibida | ✅ PASS |
+| CT-002 | Login com senha inválida      | Sistema deve impedir o acesso                    | Acesso impedido            | ✅ PASS |
+| CT-003 | Login com usuário bloqueado   | Sistema deve informar que usuário está bloqueado | Mensagem apresentada       | ✅ PASS |
+| CT-004 | Login com campos vazios       | Sistema deve impedir o acesso                    | Acesso impedido            | ✅ PASS |
+
 
 ### Carrinho:
 

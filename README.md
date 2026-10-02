@@ -1,5 +1,3 @@
-# saucedemo-qa
-
 # 🧪 Projeto de QA Manual — SauceDemo
 
 Projeto de testes manuais desenvolvido para aplicar na prática

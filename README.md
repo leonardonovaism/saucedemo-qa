@@ -49,4 +49,5 @@ https://www.saucedemo.com/
 ## 👨‍💻 Autor
 
 Leonardo Novais
+##### Linkedin: https://www.linkedin.com/in/leonardo-novais-menezes/?isSelfProfile=true
 

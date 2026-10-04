@@ -27,6 +27,8 @@ Produtos com imagens incorretas.
 
 ### Evidencia
 ![bug_001](image.png)
+### Evidencia
+![bug_001](image.png)
 
 ### Informações
 ##### OS: Windows 11

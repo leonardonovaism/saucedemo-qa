@@ -1,15 +1,5 @@
 # Casos de Teste - Login
 
-## Informações:
-
-| Campo | Valor |
-|---|---|
-|Sistema|SauceDemo|
-|URL|https://www.saucedemo.com/|
-|Tester|Leonardo Novais|
-|Tipo de teste|Funcional|
-
-
 ----------------------------------------------------------
 
 ### CT-LOGIN-001 - Login com credenciais válidas
@@ -81,9 +71,8 @@
 #### Dados de teste:
 |Campo|Valor|
 |---|---| 
-|Username|user_teste|
+|Username|standard_user|
 |password|senha123|
-
 
 #### Pré-condições:
 - Estar na tela de login 

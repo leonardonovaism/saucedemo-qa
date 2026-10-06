@@ -1,10 +1,6 @@
 # 🧪 Projeto de QA Manual — SauceDemo
 
-Projeto de testes manuais desenvolvido para aplicar na prática
-os conhecimentos de QA, incluindo planejamento de testes,
-criação de casos de teste, execução, identificação de defeitos
-e documentação de evidências.
-
+Projeto de testes manuais e automatizados desenvolvido para aplicar na prática os conhecimentos de QA, incluindo planejamento de testes, criação de casos de teste, execução, identificação de defeitos e documentação de evidências e por fim a automatização dos testes.
 ## 🎯 Objetivo
 
 Validar as principais funcionalidades da aplicação SauceDemo,
@@ -25,6 +21,7 @@ https://www.saucedemo.com/
 
 ## 🛠️ Ferramentas
 
+- Cypress
 - Git
 - GitHub
 - Markdown
@@ -39,12 +36,6 @@ https://www.saucedemo.com/
 - Relatório de execução
 - Relatórios de bugs
 - Evidências
-
-## 📊 Resultado
-
-17 casos de teste executados
-17 aprovados
-0 reprovados
 
 ## 👨‍💻 Autor
 

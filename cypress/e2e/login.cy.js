@@ -53,7 +53,7 @@ describe('login', () => {
     cy.get('[data-test="error"]').should('contain.text', 'Epic sadface: Sorry, this user has been locked out.')
     cy.url().should('eq', 'https://www.saucedemo.com/')
   })
-  it.only('Login com os campos vazio', ()=>{
+  it('Login com os campos vazio', ()=>{
     //Arrange
     cy.visit('https://www.saucedemo.com/')
 

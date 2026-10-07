@@ -43,7 +43,7 @@ describe('carrinho', ()=>{
    })
 
    //CT-CART-005
-   it.only('Validar a funcionalidade "continuar comprando', ()=>{
+   it('Validar a funcionalidade "continuar comprando', ()=>{
     //Arrange
     cy.visit('https://www.saucedemo.com/')
     cy.get('[data-test="username"]').type('standard_user')
@@ -57,8 +57,6 @@ describe('carrinho', ()=>{
 
     //Assert
     cy.url().should('eq', 'https://www.saucedemo.com/inventory.html')
-
-
    })
 
 })

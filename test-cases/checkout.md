@@ -23,33 +23,8 @@
 #### Status:
 - Aprovado
 
-
 ---------------------------------------------------------------------
-### CT-CHECKOUT-002 - Validar acesso ao checkout da compra
-
-#### Objetivo:
-- Validar que o usuário consegue prosseguir para a tela de checkout da sua compra
-
-#### Pré-condições:
-- Usuário autenticado
-- Produto adicionado ao carrinho 
-
-#### Passos:
-1. Acessar o carrinho
-2. Clicar no botão "checkout"
-
-
-#### Resultado esperado:
-- O usuário deve ser redirecionado para a pagina de produtos novamente para continuar comprando
-
-#### Resultado obtido:
-- O sistema redirecionou o usuário para a pagina de produtos para continuar comprando
-
-#### Status:
-- Aprovado
-
----------------------------------------------------------------------
-### CT-CHECKOUT-003 - Validar os campos vazios do checkout
+### CT-CHECKOUT-002 - Validar os campos vazios do checkout
 
 #### Objetivo:
 - Validar a obrigatoriedade de preenchimento nos campos da pagina de checkout
@@ -79,7 +54,7 @@
 
 
 ---------------------------------------------------------------------
-### CT-CHECKOUT-004 - Validar prosseguimento preenchendo somente o campo first name
+### CT-CHECKOUT-003 - Validar prosseguimento preenchendo somente o campo first name
 
 #### Objetivo:
 - Validar a obrigatoriedade do preenchimento de todos os campos da pagina de checkout
@@ -109,7 +84,7 @@
 
 
 ---------------------------------------------------------------------
-### CT-CHECKOUT-005 - Validar prosseguimento preenchendo somente o campo first name e Last name sem o CEP
+### CT-CHECKOUT-004 - Validar prosseguimento preenchendo somente o campo first name e Last name sem o CEP
 
 #### Objetivo:
 - Validar a obrigatoriedade de preenchimento do campo CEP
@@ -140,7 +115,7 @@
 - Aprovado
 
 ---------------------------------------------------------------------
-### CT-CHECKOUT-006 - Validar prosseguimento para a pagina "Checkout: Overview"
+### CT-CHECKOUT-005 - Validar prosseguimento para a pagina "Checkout: Overview"
 
 #### Objetivo:
 - Validar o prosseguimento para a tela de "Checkout: Overview" ao preencher dados validos 
@@ -170,7 +145,7 @@
 
 
 ---------------------------------------------------------------------
-### CT-CHECKOUT-007 - Validar finalização da compra
+### CT-CHECKOUT-006 - Validar finalização da compra
 
 #### Objetivo:
 - Validar a finalização da compra do usuário  

@@ -1,4 +1,5 @@
 describe('login', () => {
+  //CT-LOGIN-001
   it('Login com credenciais válidas', () => {
     //Arrange
     cy.visit('https://www.saucedemo.com/')
@@ -13,6 +14,7 @@ describe('login', () => {
 
   })
 
+  //CT-LOGIN-002
   it('Login com usuário invalido', () =>{
     //Arrange
     cy.visit('https://www.saucedemo.com/')
@@ -27,6 +29,7 @@ describe('login', () => {
     cy.url().should('eq', 'https://www.saucedemo.com/')
   })
 
+  //CT-LOGIN-003
   it('Login com senha invalida',()=>{
     //Arrange
     cy.visit('https://www.saucedemo.com/')
@@ -40,6 +43,8 @@ describe('login', () => {
     cy.get('[data-test="error"]').should('contain.text', 'Epic sadface: Username and password do not match any user in this service')
     cy.url().should('eq', 'https://www.saucedemo.com/')
   })
+
+  //CT-LOGIN-004
   it('Login com usuário bloqueado',()=>{
     //Arrange
     cy.visit('https://www.saucedemo.com/')
@@ -53,6 +58,8 @@ describe('login', () => {
     cy.get('[data-test="error"]').should('contain.text', 'Epic sadface: Sorry, this user has been locked out.')
     cy.url().should('eq', 'https://www.saucedemo.com/')
   })
+
+  //CT-LOGIN-005
   it('Login com os campos vazio', ()=>{
     //Arrange
     cy.visit('https://www.saucedemo.com/')

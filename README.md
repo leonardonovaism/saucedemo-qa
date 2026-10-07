@@ -1,4 +1,4 @@
-# 🧪 Projeto de QA Manual — SauceDemo
+# Projeto de QA — SauceDemo
 
 Projeto de testes manuais e automatizados desenvolvido para aplicar na prática os conhecimentos de QA, incluindo planejamento de testes, criação de casos de teste, execução, identificação de defeitos e documentação de evidências e por fim a automatização dos testes.
 ## 🎯 Objetivo

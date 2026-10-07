@@ -98,7 +98,7 @@ describe('Checkout', ()=>{
 
     //CT-CHECKOUT-006
 
-    it.only('Validar finalização da compra', ()=>{
+    it('Validar finalização da compra', ()=>{
         //arrange
         cy.visit('https://www.saucedemo.com/')
         cy.get('[data-test="username"]').type('standard_user')

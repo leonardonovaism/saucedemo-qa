@@ -1,4 +1,4 @@
-## BUG-001 produtos com imagens incorretas na seção Products 
+## BUG-001 produtos com imagens incorretas na seção Products com acesso `problem_user`
 
 #### Status: Aberto
 #### Severidade: Médio

@@ -1,6 +1,8 @@
 # Projeto de QA — SauceDemo
 
-Projeto de testes manuais e automatizados desenvolvido para aplicar na prática os conhecimentos de QA, incluindo planejamento de testes, criação de casos de teste, execução, identificação de defeitos e documentação de evidências e por fim a automação dos testes.
+Projeto prático de Quality Assurance (QA) aplicado à plataforma SauceDemo, com foco em testes manuais e automação de testes End-to-End (E2E) utilizando Cypress e JavaScript.
+
+O projeto contempla a validação dos principais fluxos da aplicação, incluindo login e carrinho de compras, elaboração e execução de casos de teste, identificação de possíveis falhas e documentação dos resultados. Também aborda boas práticas de versionamento com Git e GitHub e integração contínua (CI) com GitHub Actions para execução automatizada dos testes.
 ## 🎯 Objetivo
 
 Validar as principais funcionalidades da aplicação SauceDemo,

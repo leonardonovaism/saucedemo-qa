@@ -1,9 +1,12 @@
 describe('login', () => {
-  //CT-LOGIN-001
-  it('Login com credenciais válidas', () => {
+
+  beforeEach(()=>{
     //Arrange
     cy.visit('https://www.saucedemo.com/')
+  })
 
+  //CT-LOGIN-001
+  it('Login com credenciais válidas', () => {
     //Act
     cy.get('[data-test="username"]').type('standard_user')
     cy.get('[data-test="password"]').type('secret_sauce')
@@ -11,14 +14,10 @@ describe('login', () => {
 
     //Assert
     cy.url().should('eq', 'https://www.saucedemo.com/inventory.html')
-
   })
 
   //CT-LOGIN-002
   it('Login com usuário invalido', () =>{
-    //Arrange
-    cy.visit('https://www.saucedemo.com/')
-
     //Act
     cy.get('[data-test="username"]').type('user.invalid')
     cy.get('[data-test="password"]').type('secret_sauce')
@@ -30,10 +29,7 @@ describe('login', () => {
   })
 
   //CT-LOGIN-003
-  it('Login com senha invalida',()=>{
-    //Arrange
-    cy.visit('https://www.saucedemo.com/')
-
+  it('Login com senha invalida',()=>{  
     //Act
     cy.get('[data-test="username"]').type('standard_user')
     cy.get('[data-test="password"]').type('senha123')
@@ -46,9 +42,6 @@ describe('login', () => {
 
   //CT-LOGIN-004
   it('Login com usuário bloqueado',()=>{
-    //Arrange
-    cy.visit('https://www.saucedemo.com/')
-
     //Act
     cy.get('[data-test="username"]').type('locked_out_user')
     cy.get('[data-test="password"]').type('secret_sauce')
@@ -61,9 +54,6 @@ describe('login', () => {
 
   //CT-LOGIN-005
   it('Login com os campos vazio', ()=>{
-    //Arrange
-    cy.visit('https://www.saucedemo.com/')
-
     //Act
     cy.get('[data-test="login-button"]').click()
 

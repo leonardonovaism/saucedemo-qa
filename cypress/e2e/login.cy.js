@@ -1,15 +1,20 @@
 describe('login', () => {
-
+ 
   beforeEach(()=>{
-    //Arrange
-    cy.visit('https://www.saucedemo.com/')
+    cy.env(['url']).then(({url})=>{
+      cy.visit(url)
+    })
   })
 
-  //CT-LOGIN-001
+  //CT-LOGIN-001  
   it('Login com credenciais válidas', () => {
     //Act
-    cy.get('[data-test="username"]').type('standard_user')
-    cy.get('[data-test="password"]').type('secret_sauce')
+    cy.env(['sauceUsername', 'saucePassword'])
+    .then(({sauceUsername, saucePassword})=>{
+    cy.get('[data-test="username"]').type(sauceUsername)
+    cy.get('[data-test="password"]').type(saucePassword)
+    })
+    
     cy.get('[data-test="login-button"]').click()
 
     //Assert
@@ -20,7 +25,11 @@ describe('login', () => {
   it('Login com usuário invalido', () =>{
     //Act
     cy.get('[data-test="username"]').type('user.invalid')
-    cy.get('[data-test="password"]').type('secret_sauce')
+    cy.env(['saucePassword'])
+    .then(({saucePassword})=>{
+    cy.get('[data-test="password"]').type(saucePassword)
+    })
+        
     cy.get('[data-test="login-button"]').click()
 
     //Assert
@@ -31,7 +40,10 @@ describe('login', () => {
   //CT-LOGIN-003
   it('Login com senha invalida',()=>{  
     //Act
-    cy.get('[data-test="username"]').type('standard_user')
+    cy.env(['sauceUsername'])
+    .then(({sauceUsername})=>{
+      cy.get('[data-test="username"]').type(sauceUsername)
+    })
     cy.get('[data-test="password"]').type('senha123')
     cy.get('[data-test="login-button"]').click()
 
@@ -43,8 +55,12 @@ describe('login', () => {
   //CT-LOGIN-004
   it('Login com usuário bloqueado',()=>{
     //Act
-    cy.get('[data-test="username"]').type('locked_out_user')
-    cy.get('[data-test="password"]').type('secret_sauce')
+    cy.env(['sauceLockedUser', 'saucePassword'])
+    .then(({sauceLockedUser, saucePassword})=>{
+      cy.get('[data-test="username"]').type(sauceLockedUser)
+      cy.get('[data-test="password"]').type(saucePassword)
+    })
+
     cy.get('[data-test="login-button"]').click()
 
     //Assert

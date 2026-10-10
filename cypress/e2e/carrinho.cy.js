@@ -33,7 +33,7 @@ describe('carrinho', ()=>{
         cy.get('[data-test="remove-sauce-labs-backpack"]').click()
 
         //assert
-        cy.get('[data-test="shopping-cart-badge"]')
+      cy.contains('Sauce Labs Backpack')
         .should('not.exist')
     })
 
